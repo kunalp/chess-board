@@ -1,1 +1,1 @@
-This is a demo for interact.js
+This is a demo for [interact.js](http://interactjs.io).
