@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <title>A chess board</title>
+
+    <link rel="stylesheet" type="text/css" href="chess-board.css">
+</head>
+<body>
+
+<div class="chess-board">
+
+    <div class="square white" id="a8"><div class="piece black rook">&#9820;</div></div>
+    <div class="square black" id="b8"><div class="piece black knight">&#9822;</div></div>
+    <div class="square white" id="c8"><div class="piece black bishop">&#9821;</div></div>
+    <div class="square black" id="d8"><div class="piece black queen">&#9819;</div></div>
+    <div class="square white" id="e8"><div class="piece black king">&#9818;</div></div>
+    <div class="square black" id="f8"><div class="piece black bishop">&#9821;</div></div>
+    <div class="square white" id="g8"><div class="piece black knight">&#9822;</div></div>
+    <div class="square black" id="h8"><div class="piece black rook">&#9820;</div></div>
+
+    <div class="square black" id="a7"><div class="piece black pawn">&#9823;</div></div>
+    <div class="square white" id="b7"><div class="piece black pawn">&#9823;</div></div>
+    <div class="square black" id="c7"><div class="piece black pawn">&#9823;</div></div>
+    <div class="square white" id="d7"><div class="piece black pawn">&#9823;</div></div>
+    <div class="square black" id="e7"><div class="piece black pawn">&#9823;</div></div>
+    <div class="square white" id="f7"><div class="piece black pawn">&#9823;</div></div>
+    <div class="square black" id="g7"><div class="piece black pawn">&#9823;</div></div>
+    <div class="square white" id="h7"><div class="piece black pawn">&#9823;</div></div>
+
+    <div class="square white" id="a6"></div>
+    <div class="square black" id="b6"></div>
+    <div class="square white" id="c6"></div>
+    <div class="square black" id="d6"></div>
+    <div class="square white" id="e6"></div>
+    <div class="square black" id="f6"></div>
+    <div class="square white" id="g6"></div>
+    <div class="square black" id="h6"></div>
+
+    <div class="square black" id="a5"></div>
+    <div class="square white" id="b5"></div>
+    <div class="square black" id="c5"></div>
+    <div class="square white" id="d5"></div>
+    <div class="square black" id="e5"></div>
+    <div class="square white" id="f5"></div>
+    <div class="square black" id="g5"></div>
+    <div class="square white" id="h5"></div>
+
+    <div class="square white" id="a4"></div>
+    <div class="square black" id="b4"></div>
+    <div class="square white" id="c4"></div>
+    <div class="square black" id="d4"></div>
+    <div class="square white" id="e4"></div>
+    <div class="square black" id="f4"></div>
+    <div class="square white" id="g4"></div>
+    <div class="square black" id="h4"></div>
+
+    <div class="square black" id="a3"></div>
+    <div class="square white" id="b3"></div>
+    <div class="square black" id="c3"></div>
+    <div class="square white" id="d3"></div>
+    <div class="square black" id="e3"></div>
+    <div class="square white" id="f3"></div>
+    <div class="square black" id="g3"></div>
+    <div class="square white" id="h3"></div>
+
+    <div class="square white" id="a2"><div class="piece white pawn">&#9817;</div></div>
+    <div class="square black" id="b2"><div class="piece white pawn">&#9817;</div></div>
+    <div class="square white" id="c2"><div class="piece white pawn">&#9817;</div></div>
+    <div class="square black" id="d2"><div class="piece white pawn">&#9817;</div></div>
+    <div class="square white" id="e2"><div class="piece white pawn">&#9817;</div></div>
+    <div class="square black" id="f2"><div class="piece white pawn">&#9817;</div></div>
+    <div class="square white" id="g2"><div class="piece white pawn">&#9817;</div></div>
+    <div class="square black" id="h2"><div class="piece white pawn">&#9817;</div></div>
+
+    <div class="square black" id="a1"><div class="piece white rook">&#9814;</div></div>
+    <div class="square white" id="b1"><div class="piece white knight">&#9816;</div></div>
+    <div class="square black" id="c1"><div class="piece white bishop">&#9815;</div></div>
+    <div class="square white" id="d1"><div class="piece white queen">&#9813;</div></div>
+    <div class="square black" id="e1"><div class="piece white king">&#9812;</div></div>
+    <div class="square white" id="f1"><div class="piece white bishop">&#9815;</div></div>
+    <div class="square black" id="g1"><div class="piece white knight">&#9816;</div></div>
+    <div class="square white" id="h1"><div class="piece white rook">&#9814;</div></div>
+
+</div>
+
+<div id="moves">
+    <table>
+        <thead>
+            <tr>
+                <th>#</th>
+                <th>W</th>
+                <th>B</th>
+            </tr>
+        </thead>
+        <tbody>
+        </tbody>
+    </table>
+</div>
+
+</body>
+
+<script src="interact.js"></script>
+<script src="chess-board.js"></script>
+</html>

@@ -1,0 +1,42 @@
+
+.chess-board {
+    width: 640px;
+    height: 640px;
+    margin: 20px;
+    border: 25px solid #333;
+    float: left;
+}
+
+.square {
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+    float: left;
+    width: 80px;
+    height: 80px;
+}
+
+.square.white {
+    background-color: white;
+}
+
+.square.black {
+    background-color: lightgray;
+}
+
+.piece {
+    font-size: 50px;
+}
+
+.drop-target {
+    background-color: #29e;
+}
+
+#moves {
+    float: left;
+}
+
+#moves td {
+    padding-left: 4px;
+    padding-right: 4px;
+}
